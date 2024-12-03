@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.iphone {
+  background-image: url("./assets/iPhone.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.yellow {
+  background-image: url("./assets/yellowFrame.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.green {
+  background-image: url("./assets/greenFrame.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.yellow2 {
+  background-image: url("./assets/yellowFrame2.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.background {
+  background-image: url("./assets/stylishBg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slick-slider,
+.slick-list,
+.slick-track,
+.slick-slide {
+  height: auto;
+  overflow: visible;
+}
+
+/* .slick-slide {
+  background-color: blue;
+  overflow: visible;
+} */
+
+.slick-slide > div {
+  height: 100%;
+  margin: 0 20px;
+}
+.slick-active {
+  transform: scale(1.1);
+}
